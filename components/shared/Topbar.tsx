@@ -26,17 +26,7 @@ function Topbar() {
             </SignOutButton>
           </SignedIn>
         </div>
-        <OrganizationSwitcher
-          hidePersonal
-          appearance={{
-            baseTheme: dark,
-            elements: {
-              organizationSwitcherTrigger:
-               "py-2 px-2"
-            }
-          }
-          }
-        />
+        <OrganizationSwitcher/>
       </div>
     </nav>
   );
